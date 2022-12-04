@@ -12,3 +12,7 @@ Implementar e realizar testes end-to-end para a criação e a listagem de **prod
 Utilize o padrão _notification_ na entidade **Products**.
 * Não deixe de realizar os testes automatizados.
 * Adicione um teste que acumule dois erros ao mesmo tempo.
+
+## Desafio 4: Validações vs Acoplamento
+Criar o processo de validação a fim de minizar o acoplamento para o domínio **Product**.
+* Utilizar biblioteca Yup.
