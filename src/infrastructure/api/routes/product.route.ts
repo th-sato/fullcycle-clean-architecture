@@ -25,7 +25,6 @@ productRoute.get("/", async (req: Request, res: Response) => {
   const repository = new ProductRepository();
   const usecase = new ListProductUseCase(repository);
   const output = await usecase.execute({});
-  console.log(output);
 
   res.send(output);
 });
